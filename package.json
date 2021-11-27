@@ -1,0 +1,26 @@
+{
+  "name": "front-end-wheels",
+  "version": "0.0.1",
+  "description": "Practicing FE with build some wheels",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiajiewu1988/fe-wheels.git"
+  },
+  "keywords": [
+    "front-end",
+    "component"
+  ],
+  "author": "Jerry Wu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jiajiewu1988/fe-wheels/issues"
+  },
+  "homepage": "https://github.com/jiajiewu1988/fe-wheels#readme",
+  "dependencies": {
+    "pretty-print-json": "^1.1.1"
+  }
+}
