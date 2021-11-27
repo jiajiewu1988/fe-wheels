@@ -31,7 +31,7 @@ bidder2 = new Bidder("Joey");
 auctioneer.registerBidder(bidder2);
 bidder1.giveNewPrice(400);
 bidder2.giveNewPrice(550);
-auctioneer.announceNewBidderPrice()
+auctioneer.announceNewBidderPrice();
 ```
 
 **Sample Output**
