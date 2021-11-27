@@ -4,7 +4,8 @@
   "description": "Practicing FE with build some wheels",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,8 @@
   "homepage": "https://github.com/jiajiewu1988/fe-wheels#readme",
   "dependencies": {
     "pretty-print-json": "^1.1.1"
+  },
+  "devDependencies": {
+    "jest": "^27.3.1"
   }
 }
