@@ -35,4 +35,3 @@ const copy2 = cloneDeep2(a);
 console.log(`original obj - ${JSON.stringify(a, null, 2)}`);
 console.log(`copied object - ${JSON.stringify(copy2, null, 2)}`);
 console.log('----------------cloneDeep2-------------------');
-
