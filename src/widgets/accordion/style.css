@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+.accordion-list {
+  width: 70%;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.accordion-item {
+  margin: 15px 0;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.accordion-item > .header {
+  padding: 15px 10px;
+  font-size: 20px;
+  position: relative;
+  height: 50px;
+}
+
+.accordion-item > .header::after {
+  content: '\002B';
+  position: absolute;
+  right: 10px;
+}
+
+.accordion-item > .header.active::after {
+  content: '\2212'
+}
+
+.accordion-item > .content {
+  border-top: 1px solid black;
+  padding: 0 10px;
+  overflow: hidden;
+  transition: max-height 1s ease;
+  max-height: 0;
+}

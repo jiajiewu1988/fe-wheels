@@ -16,7 +16,7 @@ It should have a `notifyBidders` function to notify each bidder of a new bidding
 
 A `name` and `bidPrice`
 
-An `update` function that displays the `name` of the bidder along with the `bidPrice` they are giving. For example, `{insert name} is offering {insert bid price} dollars`. It should display Sold to `{insert name of bidder here}` if the bid price exceeds `500` dollars.
+An `update` function that displays the `name` of the bidder along with the `bidPrice` they are giving. For example, `{name} is offering {bid price} dollars`. It should display Sold to `{insert name of bidder here}` if the bid price exceeds `500` dollars.
 
 A `giveNewPrice` function that sets the bid price of a bidder
 
